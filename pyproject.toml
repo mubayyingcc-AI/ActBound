@@ -12,5 +12,10 @@ dependencies = ["cryptography>=41", "fastapi>=0.110", "uvicorn>=0.27"]
 [project.optional-dependencies]
 test = ["pytest>=8"]
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["actbound", "actbound.*"]
+namespaces = false
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
