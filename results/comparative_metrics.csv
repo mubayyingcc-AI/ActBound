@@ -1,0 +1,3 @@
+architecture,trials,both_commit_trials,exactly_one_commit_trials,zero_commit_trials,max_total_committed_minor,budget_minor,elapsed_ms_total
+ActBound candidate,1000,0,1000,0,10000,10000,2524.968
+Local temporal-policy approximation,1000,1000,0,0,20000,10000,206.026
